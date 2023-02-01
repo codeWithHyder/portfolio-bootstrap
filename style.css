@@ -1,7 +1,35 @@
-#nb {
-    background-color: #c20e0e;
+.navbar {
+    background-color: #312f2f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+.nav-left {
+    display: flex;
+    align-items: center;
+    width: 10rem;
+}
+
+.nav-left li a {
+    color: #fff;
+}
+
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 25rem;
+    align-items: center;
+    width: 45rem;
+}
+
+.nav-right li a {
+    margin-right: 2rem;
+    color: #fff;
+}
+
+/* --------------------hero section------------ */
 .hero-section {
     background-color: #1c1a19;
     border: 1px solid green;
