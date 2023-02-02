@@ -1,78 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://kit.fontawesome.com/085384e239.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500;700&display=swap"
-        rel="stylesheet">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/085384e239.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500;700&display=swap"
+            rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
             href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&family=Roboto:wght@500;700&display=swap"
             rel="stylesheet">
-</head>
-<body>
-    
+    </head>
 
-<div class="container-fluid">
-    <nav class="navbar navbar-expand-sm bg-light" id="nb">
-    <div class="container-fluid">
-        <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" href="#">John Doe</a>
-        </li>
-        <div class="nav-right">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"><img src="./images/Union.png"> </a>
-            </li>
-        </ul>
-    </div>
-    </div>
-    </nav>
+    <body>
 
-<!---------------- hero sectio--------------------->
-<div class=" hero-section pt-5">
-    <div class="row ">
-        <div class="col-2 hero-left">
-           <ul class="list-unstyled p-5">
-                <li class="p-1"><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                <li class="p-1"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li class="p-1"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li class="p-1"><a href="#"><i class="fa-solid fa-m"></i></a></li>
-            </ul>
+
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <div class="nav-left">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">John Doe</a>
+                            </li>
+                        </div>
+                        <div class="nav-right">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="./images/Union.png"> </a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+
+            </nav>
+
+            <!---------------- hero sectio--------------------->
+            <div class=" hero-section pt-5">
+                <div class="row ">
+                    <div class="col-2 hero-left">
+                        <ul class="list-unstyled p-5">
+                            <li class="p-1"><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                            <li class="p-1"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li class="p-1"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="p-1"><a href="#"><i class="fa-solid fa-m"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-10 hero-right">
+
+
+                        <h1>Hi There.<br>I am Hyder</h1>
+                        <h5>I'm a web Developer</h5>
+                        <p>I can help you build a product , feature or website. Look through some of my work and
+                            experience! If
+                            you like what you
+                            see and have a project you need coded,
+                            don’t hesitate to contact me.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Image Section -->
+
+            <div class="container py-4 py-xl-5">
+                <h2 class="mb-5">My Recent Works</h2>
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col"><img class="rounded w-100 h-100 fit-cover" style="min-height: 300px;"
+                            src="./images/FeaturedImg.png" />
+                    </div>
+                    <div class="col d-flex flex-column justify-content-center p-4">
+                        <div
+                            class="text-center text-md-start d-flex flex-column align-items-center align-items-md-start mb-5">
+                            <div>
+                                <h4>Multi-Post Stories</h4>
+                                <p style="margin-top: 35px;">A daily selection of privately personalized reads; no
+                                    accounts or
+                                    sign-ups required. This has been the industry&#39;s standard dummy text ever since
+                                    the 1500s,
+                                    when an unknown printer took a standard dummy text.</p>
+                            </div>
+                            <div style="margin-top: 12px;"><span class="badge bg-secondary"
+                                    style="width: 80px;height: 27.4px;border-radius: 0;">css</span><span
+                                    class="badge bg-secondary"
+                                    style="width: 80px;height: 27.4px;margin-left: 20px;border-radius: 0;">html</span><span
+                                    class="badge bg-secondary"
+                                    style="width: 80px;height: 27.4px;margin-left: 20px;border-radius: 0;">bootstrap</span><span
+                                    class="badge bg-secondary"
+                                    style="width: 80px;height: 27.4px;margin-left: 20px;border-radius: 0;">Ruby</span>
+                            </div><button class="btn btn-primary" type="button"
+                                style="border-radius: 0px;background: #F55800;margin-top: 23px;">See Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Group Section -->
+
+            <div class="container">
+
+
+                <div class="card-group" style="margin-top: 20px">
+                    <div class="card" style="background-image: url(./images/ImgPlaceholder.png);">
+                        <div class="card-body">
+                            <div style="margin-top: 113px;height: 225px;">
+                                <h4 style="color: var(--bs-card-bg);">Data DashboardHealthcare</h4>
+                                <p style="color: var(--bs-card-bg);">A daily selection of privately personalized reads;
+                                    no accounts
+                                    or sign-ups required. has been the industry&#39;s standard</p><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;border-radius: 0px;background: rgb(253,56,13);--bs-danger: #dc3545;--bs-danger-rgb: 220,53,69;">html</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 83px;margin: 0px;margin-left: 22px;border-radius: 0px;">bootstrap</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;margin-left: 19px;border-radius: 0px;background: var(--bs-card-bg);">ruby</span>
+                            </div>
+                        </div>
+                        <div style="text-align: center;background: #F55800;"><button class="btn btn-primary"
+                                type="button" style="border-radius: 0px;background: #F55800;">See Project</button></div>
+                    </div>
+                    <div class="card" style="margin-left: 35px; background-image: url(./images/ImgPlaceholder1.png);">
+                        <div class="card-body">
+                            <div style="margin-top: 113px;height: 225px;">
+                                <h4 style="color: var(--bs-card-bg);">Data DashboardHealthcare</h4>
+                                <p style="color: var(--bs-card-bg);">A daily selection of privately personalized reads;
+                                    no accounts
+                                    or sign-ups required. has been the industry&#39;s standard</p><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;border-radius: 0px;background: rgb(253,56,13);--bs-danger: #dc3545;--bs-danger-rgb: 220,53,69;">html</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 83px;margin: 0px;margin-left: 22px;border-radius: 0px;">bootstrap</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;margin-left: 19px;border-radius: 0px;background: var(--bs-card-bg);">ruby</span>
+                            </div>
+                        </div>
+                        <div style="text-align: center;background: #F55800;"><button class="btn btn-primary"
+                                type="button" style="border-radius: 0px;background: #F55800;">See Project</button></div>
+                    </div>
+                    <div class="card" style="margin-left: 35px; background-image: url(./images/ImgPlaceholder.png);">
+                        <div class="card-body">
+                            <div style="margin-top: 113px;height: 225px;">
+                                <h4 style="color: var(--bs-card-bg);">Data DashboardHealthcare</h4>
+                                <p style="color: var(--bs-card-bg);">A daily selection of privately personalized reads;
+                                    no accounts
+                                    or sign-ups required. has been the industry&#39;s standard</p><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;border-radius: 0px;background: rgb(253,56,13);--bs-danger: #dc3545;--bs-danger-rgb: 220,53,69;">html</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 83px;margin: 0px;margin-left: 22px;border-radius: 0px;">bootstrap</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;margin-left: 19px;border-radius: 0px;background: var(--bs-card-bg);">ruby</span>
+                            </div>
+                        </div>
+                        <div style="text-align: center;background: #F55800;"><button class="btn btn-primary"
+                                type="button" style="border-radius: 0px;background: #F55800;">See Project</button></div>
+                    </div>
+                </div>
+                <div class="card-group" style="margin-top: 23px;">
+                    <div class="card" style="background-image: url(./images/ImgPlaceholder.png);">
+                        <div class="card-body">
+                            <div style="margin-top: 113px;height: 225px;">
+                                <h4 style="color: var(--bs-card-bg);">Data DashboardHealthcare</h4>
+                                <p style="color: var(--bs-card-bg);">A daily selection of privately personalized reads;
+                                    no accounts
+                                    or sign-ups required. has been the industry&#39;s standard</p><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;border-radius: 0px;background: rgb(253,56,13);--bs-danger: #dc3545;--bs-danger-rgb: 220,53,69;">html</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 83px;margin: 0px;margin-left: 22px;border-radius: 0px;">bootstrap</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;margin-left: 19px;border-radius: 0px;background: var(--bs-card-bg);">ruby</span>
+                            </div>
+                        </div>
+                        <div style="text-align: center;background: #F55800;"><button class="btn btn-primary"
+                                type="button" style="border-radius: 0px;background: #F55800;">See Project</button></div>
+                    </div>
+                    <div class="card" style="margin-left: 35px; background-image: url(./images/ImgPlaceholder1.png);">
+                        <div class="card-body">
+                            <div style="margin-top: 113px;height: 225px;">
+                                <h4 style="color: var(--bs-card-bg);">Data DashboardHealthcare</h4>
+                                <p style="color: var(--bs-card-bg);">A daily selection of privately personalized reads;
+                                    no accounts
+                                    or sign-ups required. has been the industry&#39;s standard</p><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;border-radius: 0px;background: rgb(253,56,13);--bs-danger: #dc3545;--bs-danger-rgb: 220,53,69;">html</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 83px;margin: 0px;margin-left: 22px;border-radius: 0px;">bootstrap</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;margin-left: 19px;border-radius: 0px;background: var(--bs-card-bg);">ruby</span>
+                            </div>
+                        </div>
+                        <div style="text-align: center;background: #F55800;"><button class="btn btn-primary"
+                                type="button" style="border-radius: 0px;background: #F55800;">See Project</button></div>
+                    </div>
+                    <div class="card" style="margin-left: 35px; background-image: url(./images/ImgPlaceholder.png);">
+                        <div class="card-body">
+                            <div style="margin-top: 113px;height: 225px;">
+                                <h4 style="color: var(--bs-card-bg);">Data DashboardHealthcare</h4>
+                                <p style="color: var(--bs-card-bg);">A daily selection of privately personalized reads;
+                                    no accounts
+                                    or sign-ups required. has been the industry&#39;s standard</p><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;border-radius: 0px;background: rgb(253,56,13);--bs-danger: #dc3545;--bs-danger-rgb: 220,53,69;">html</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 83px;margin: 0px;margin-left: 22px;border-radius: 0px;">bootstrap</span><span
+                                    class="badge bg-secondary"
+                                    style="height: 25.4px;width: 71px;margin-left: 19px;border-radius: 0px;background: var(--bs-card-bg);">ruby</span>
+                            </div>
+                        </div>
+                        <div style="text-align: center;background: #F55800;"><button class="btn btn-primary"
+                                type="button" style="border-radius: 0px;background: #F55800;">See Project</button></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Skills Section -->
+            <div class="container-fluid mt-5 pb-5" style="background-color: #262626;">
+
+
+                <div style="background: url('./images/Group.png') right / auto no-repeat;height: 356px;">
+                    <h1 style="color: #F55800;margin-left: 265px;width: 600px;margin-top: 0;padding-top: 77px;">About me
+                    </h1>
+                    <p style="color: white;margin-left:265px;width: 500px;">Hey there! I can help you build a product,
+                        feature or
+                        website. Look through some of my work and experience! If you like what you see and have a
+                        project you need
+                        coded, don’t hesitate to contact me.</p><button class="btn btn-primary" type="button"
+                        style="background: #F55800;border-radius: 0;margin-left: 265px;">Get My Resume</button>
+                </div>
+                <div class="container">
+                    <div class="row" style="margin-top: 70px;">
+                        <div class="col-md-4">
+                            <h1 style="color: white;">Language</h1>
+                            <ul class="list-unstyled" style="color: white;margin-top: 10px;">
+                                <li>Javascript</li>
+                                <li>Ruby</li>
+                                <li>HTML</li>
+                                <li>Css</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h1 style="color: white;">Frameworks</h1>
+                            <ul class="list-unstyled" style="color: white;">
+                                <li>Bootstrap</li>
+                                <li>Ruby on Rails</li>
+                                <li>RSpec</li>
+                                <li>CapyBara</li>
+                                <li>Selenium</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h1 style="color: white;">Skills</h1>
+                            <ul class="list-unstyled" style="color: white;">
+                                <li>Codekit</li>
+                                <li>Github</li>
+                                <li>Codepen</li>
+                                <li>Gitlab</li>
+                                <li>Terminal</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Contact Section -->
+
+            <section class="py-4 py-xl-5 mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col" style="width: 418px;">
+                            <h1 class="text-start">I&#39;m always interested in hearing about new projects, so if
+                                you&#39;d like to
+                                chat please get in touch.</h1>
+                        </div>
+                        <div class="col-md-6 col-xl-4" style="width: 633px;">
+                            <div>
+                                <form class="p-3 p-xl-4" method="post">
+                                    <div class="mb-3"><label class="form-label" for="name">Name</label><input id="name"
+                                            class="form-control" type="text" name="name"
+                                            style="border-top-width: 0px;border-right-width: 0px;border-left-width: 0px;border-radius: 0px;" />
+                                    </div>
+                                    <div class="mb-3"><label class="form-label" for="email">Email address</label><input
+                                            id="email" class="form-control" type="email" name="email"
+                                            style="border-top-width: 0px;border-right-width: 0px;border-left-width: 0px;border-radius: 0px;" />
+                                    </div>
+                                    <div class="mb-3"><label class="form-label" for="message">Message</label><textarea
+                                            id="message" class="form-control" name="message" rows="6"
+                                            style="background: #FBF8F7;"></textarea>
+                                    </div>
+                                    <div class="mb-3"><button class="btn btn-primary" type="submit"
+                                            style="background: #F55800;border-radius: 0;">Get in Touch</button></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="text-align: center;">
+                        <div class="col">
+                            <i class="fab fa-github"></i>
+                            <i class="fab fa-linkedin-in" style="margin-left: 17px;width: 18px;height: 20px;"></i>
+                            <i class="fab fa-angellist" style="margin-left: 17px;width: 18px;height: 20px;"></i>
+                            <i class="fab fa-twitter" style="margin-left: 17px;width: 18px;height: 20px;"></i>
+                            <i class="fab fa-medium-m" style="margin-left: 17px;width: 18px;height: 20px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="col-10 hero-right">
+    </body>
 
-            
-                <h1>Hi There.<br>I am Hyder</h1>
-                <h5>I'm a web Developer</h5>
-                <p>I can help you build a product , feature or website. Look through some of my work and experience! If
-                    you like what you
-                    see and have a project you need coded,
-                    don’t hesitate to contact me.</p>
-            
-        </div>
-    </div>
-</div>
-</div>
-</body>
 </html>
