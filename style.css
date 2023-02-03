@@ -15,7 +15,6 @@
     color: #fff;
 }
 
-
 .nav-right {
     display: flex;
     justify-content: flex-end;
@@ -32,15 +31,16 @@
 /* --------------------hero section------------ */
 .hero-section {
     background-color: #1c1a19;
-    border: 1px solid green;
-     background-image: url("./images/backghero.png");
-    height:34rem;
+    background-image: url("./images/Illustration-header.png");
+    height:50rem;
+    background-position: right top;
+    background-repeat: no-repeat;
 }
 
 .hero-section img {
-    width: 80%;
-    height: 60%;
-    padding-bottom: 3rem;
+    width: 50%;
+    height: 40%;
+    padding-bottom: 5rem;
 }
 
 .hero-right {
@@ -62,3 +62,60 @@
 .hero-right p {
     color: #f4f5f7;
 }
+
+/* -----my works row1 -------------------------------- */
+.col-5{
+    width: 25rem;
+    margin-left: 1rem;
+}
+
+.row {
+    width: 90%;
+}
+
+.card-body {
+    background-image: url("./images/Bg_ImgCard.png");
+    height: 25rem;
+}
+
+.card-body .btn-prj {
+    display: none;
+}
+
+.card-body:hover {
+    cursor: pointer;
+    background-image: url("./images/clearimg.png");
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+    z-index: 1;
+}
+
+.card-body:hover h4,
+.card-body:hover p,
+.card-body:hover ul {
+    display: none;
+}
+
+.card-body:hover .btn-prj {
+    display: block;
+}
+
+/* ----------------- about me ----------------------------------- */
+.aboutme {
+    height: auto;
+    width: 100%;
+    background-color: #262626;
+    background-image: url("/images/aboutmeright.png");
+    object-fit: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.about-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    object-position: left;
+}
+
